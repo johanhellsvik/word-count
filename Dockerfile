@@ -15,7 +15,7 @@ RUN apt-get update && apt-get -y install locales
 RUN apt-get install -y build-essential && apt-get install -y nano
 
 # install python
-RUN apt-get install -y python3.6 python3.6-dev python3-pip python3.6-venv
+RUN apt-get install -y python3.7 python3.7-dev python3-pip python3.7-venv
 RUN pip3 install --upgrade pip
 RUN yes | pip3 install numpy
 RUN yes | pip3 install matplotlib
